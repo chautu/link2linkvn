@@ -1,0 +1,6 @@
+::1(delete from table_user_online where time < 1694544152)--admin--query(tables) (01:52:32 13/09/2023)
+::1(delete from table_user_online where time < 1694544161)--admin--query(tables) (01:52:41 13/09/2023)
+::1(delete from table_user_online where time < 1694544162)--admin--query(tables) (01:52:42 13/09/2023)
+::1(delete from table_user_online where time < 1694544163)--admin--query(tables) (01:52:43 13/09/2023)
+::1(delete from table_user_online where time < 1694544167)--admin--query(tables) (01:52:47 13/09/2023)
+::1(delete from table_user_online where time < 1694544168)--admin--query(tables) (01:52:48 13/09/2023)

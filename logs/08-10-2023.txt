@@ -1,0 +1,7 @@
+::1(delete from table_user_online where time < 1696756214)----query(tables) (16:20:14 08/10/2023)
+::1([["","id","=","18"]])--admin--update(setting) (16:20:25 08/10/2023)
+::1(delete from table_seo where idmuc =  and com = 'setting' and act = 'capnhat' and type = 'setting')--admin--query(tables) (16:20:25 08/10/2023)
+::1(1244)--admin--insert(seo) (16:20:25 08/10/2023)
+::1([["","id","=","18"]])--admin--update(setting) (16:20:40 08/10/2023)
+::1(delete from table_seo where idmuc =  and com = 'setting' and act = 'capnhat' and type = 'setting')--admin--query(tables) (16:20:40 08/10/2023)
+::1(1245)--admin--insert(seo) (16:20:40 08/10/2023)

@@ -1,0 +1,2 @@
+::1(delete from table_user_online where time < 1698241447)----query(tables) (20:54:07 25/10/2023)
+::1(delete from table_user_online where time < 1698241494)----query(tables) (20:54:54 25/10/2023)
