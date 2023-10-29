@@ -46,7 +46,7 @@
         }
         else
         {
-            echo ' <style type="text/css">body{background-color:#'.$bgbodyOptions['color'].'}</style>';
+            echo ' <style type="text/css">body{background-color:#fff}</style>';
         }
     }
 ?>

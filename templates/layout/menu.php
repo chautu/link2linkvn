@@ -4,13 +4,10 @@
             <div class="logo-menu">
                 <div class="logo logo-svg sss d-flex align-items-center">
                     <a href="<?= $config_base ?>" aria-label="<?=$seo->getSeo('title')?>">
-                        <img width="150" height="40" onerror="this.src='<?= THUMBS ?>/150x40x2/assets/images/noimage.png';" src="<?= THUMBS ?>/150x40x2/<?= UPLOAD_PHOTO_L . $logo['photo'] ?>" alt="Logo <?= $setting['ten'.$lang] ?>"/>
+                        <img width="150" height="40" onerror="this.src='<?= THUMBS ?>/240x77/assets/anh/logo_header.svg';" src="<?= THUMBS ?>/240x77x2/assets/anh/logo_header.svg" alt="Logo <?= $setting['ten'.$lang] ?>"/>
                     </a>
                 </div>
-                <div class="w-clear" id="search_bar">
-                    <input type="text" name="search-desktop" id="search-desktop" placeholder="<?=enterkeywords?>" onkeypress="doEnter(event,'search-desktop');"/>
-                    <button aria-label="button-search" onclick="onSearch('search-desktop');"><i class="fas fa-search"></i></button>
-                </div>
+             
             </div>
             <ul class="nav-menu no-scrollbar">
                 <li>
@@ -44,6 +41,10 @@
                         <p class="transition cart-toggle" title="<?= cart ?>"><?= cart ?></p>
                     </li>
                 <?php } ?>
+               
+                
+            </ul>
+            <ul class="nav-menu">
                 <?php if(isset($config['login']['active']) && $config['login']['active'] == true) { ?>
                 <?php if(isset($_SESSION[$login_member]['active']) && $_SESSION[$login_member]['active'] == true) { ?> 
                     <li>
@@ -61,11 +62,7 @@
                     </li>
                 <?php } ?>
                 <?php } ?>
-                <li>
-                    <p class="transition menu-toggle" id="menu-toggle" title="<?= menu ?>">
-                        <i class="fas fa-bars"></i>
-                    </p>
-                </li>
+                <button class="btn btn-get-app">Get the App</button>
             </ul>
         </div>
     </div>

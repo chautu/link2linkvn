@@ -1,1 +1,5 @@
-<div class="breadCrumbs"><div class="center"><?=$breadcrumbs?></div></div>
+<div class="breadCrumbs">
+    <div class="center">
+        <?=$breadcrumbs?>
+    </div>
+</div>
