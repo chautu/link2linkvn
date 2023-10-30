@@ -1,0 +1,169 @@
+* {margin: 0;padding: 0;  }
+
+body {font-family:Helvetica,Arial,sans-serif;}
+body::-webkit-scrollbar {width: 5px; height: 5px}
+body::-webkit-scrollbar-track{background-color: #fafafa;}
+body::-webkit-scrollbar-thumb{background-image: linear-gradient(-45deg, #6a5af9, #d66efd);}
+
+html,body,div,span {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent  }
+body {line-height: 1  }
+blockquote,q {quotes: none  }
+blockquote:before,blockquote:after,q:before,q:after {content: '';content: none  }
+:focus {outline: 0  }
+ins {text-decoration: none  }
+del {text-decoration: line-through  }
+table {border-collapse: collapse;border-spacing: 0  }
+a,a:hover,a:focus {outline: none !important;  }
+
+/*----------basic----------------*/
+html,body {font-size: 15px;line-height: 25px; padding: 0 5px 100px 5px;}
+a {text-decoration: none;color: #1471CE;transition: all 0.5s;-webkit-transition: all 0.5s;-moz-transition: all 0.5s;  }
+a:hover {text-decoration: none !important;color: #F00;  }
+html { text-rendering: optimizeLegibility;   }
+::-webkit-scrollbar {background: #fff;width: 10px;height: 11px;  }
+::-webkit-scrollbar-thumb {background: #ccc;  }
+
+/*Prevent Firefox Scrollbar Jump*/
+img {border: none;max-width: 100%;height: auto;vertical-align: middle;box-sizing: border-box;position: relative;height: auto;  }
+input,textarea {padding: 0;margin: 0;resize: none;outline: none;height: auto !important;line-height: 25px !important;  }
+select,.cp {cursor: pointer;  }
+.clear {clear: both;  }
+:focus {outline: 0;  }
+input:focus {outline: 1px solid #f97d17;  }
+textarea:focus {outline: 1px solid #f97d17;  }
+del {text-decoration: line-through  }
+table {border-collapse: collapse;border-spacing: 0  }
+button {border: 0;font-weight: bold;outline: none  }
+ul,ol,dl {text-decoration: none !important;  }
+li {list-style: none;}
+h1,h2,h3,h4,h5,h6 {margin: 0px;font-weight: 500 !important;font-size: 14px !important; }
+p {margin: 0;}
+
+.mce-toc {
+    padding: 15px !important;
+    border: 1px solid #dedede !important;
+    border-radius: 7px !important;
+    background-color: #eeeeee !important;
+}
+.mce-toc h2 {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.mce-toc > ul {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 14px !important;
+    margin-top: 10px !important;
+}
+.mce-toc > ul li a {
+    color: #000000a6 !important;
+    font-weight: 600 !important;
+    font-size: 11pt !important;
+}
+.mce-toc > ul  ul {
+    margin: 0 !important;
+    padding-top: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 8px !important;
+}
+.mce-toc ul li {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+}
+
+code {
+    background-color: unset !important;
+    white-space: break-spaces !important;
+}
+
+.code-light .token.keyword  {
+    color: #0b88a3 !important;
+}
+.code-light .token.atrule, 
+.code-light .token.attr-value, 
+.code-light .token.class-name, 
+.code-light .token.function {
+    color: #f7b10c !important;
+}
+.code-light .token.punctuation {
+    color: #8d25ad !important;
+}
+.code-light .token.attr-name, 
+.code-light .token.builtin, 
+.code-light .token.char, 
+.code-light .token.inserted, 
+.code-light .token.selector, 
+.code-light .token.string {
+    color: #cb6113 !important;
+}
+
+.language-css.code-light .token.string, 
+.style.code-light .token.string, 
+.code-light .token.entity, 
+.code-light .token.operator, 
+.code-light .token.url, 
+.code-light .token.variable {
+    color: #2b0ba5 !important;
+}
+
+.code-mac-dark {
+    background: #272822 !important;
+    color: #fff !important;
+    box-shadow: 5px 5px 0 #0000001f !important;
+    border-radius: 10px !important;
+    position: relative;
+    padding: 15px !important;
+    border: none !important;
+}
+
+.code-mac-dark::before {
+    --ck-fancy-code-disc-radius: 6px;
+    content: "";
+    display: block;
+    height: calc(var(--ck-fancy-code-disc-radius) * 2);
+    background-image: radial-gradient( circle, #f16b5d var(--ck-fancy-code-disc-radius), #0000 var(--ck-fancy-code-disc-radius) ), radial-gradient( circle, #f5be4d var(--ck-fancy-code-disc-radius), #0000 var(--ck-fancy-code-disc-radius) ), radial-gradient( circle, #56c452 var(--ck-fancy-code-disc-radius), #0000 var(--ck-fancy-code-disc-radius) );
+    background-size: calc(var(--ck-fancy-code-disc-radius) * 2) calc(var(--ck-fancy-code-disc-radius) * 2);
+    background-position: 0 0, calc(var(--ck-fancy-code-disc-radius) * 3) 0, calc(var(--ck-fancy-code-disc-radius) * 6) 0;
+    margin-bottom: 12px;
+    background-repeat: no-repeat;
+}
+
+.code-mac-light {
+    background: #dddfe0 !important;
+    color: #000 !important;
+    box-shadow: 5px 5px 0 #b3b3b3 !important;
+    border-radius: 10px !important;
+    position: relative;
+    padding: 15px !important;
+    border: none !important;
+}
+.code-mac-light::before {
+    --ck-fancy-code-disc-radius: 6px;
+    content: "";
+    display: block;
+    height: calc(var(--ck-fancy-code-disc-radius) * 2);
+    background-image: radial-gradient( circle, #f16b5d var(--ck-fancy-code-disc-radius), #0000 var(--ck-fancy-code-disc-radius) ), radial-gradient( circle, #f5be4d var(--ck-fancy-code-disc-radius), #0000 var(--ck-fancy-code-disc-radius) ), radial-gradient( circle, #56c452 var(--ck-fancy-code-disc-radius), #0000 var(--ck-fancy-code-disc-radius) );
+    background-size: calc(var(--ck-fancy-code-disc-radius) * 2) calc(var(--ck-fancy-code-disc-radius) * 2);
+    background-position: 0 0, calc(var(--ck-fancy-code-disc-radius) * 3) 0, calc(var(--ck-fancy-code-disc-radius) * 6) 0;
+    margin-bottom: 12px;
+    background-repeat: no-repeat;
+}
+
+.code-normal-dark {
+    background: url(../../../assets/images/images/bg-code-1.jpg) left top #181914 !important;
+    color: #fff !important;
+    padding: 15px !important;
+    border: none !important;
+}
+
+.code-normal-light {
+    padding: 15px !important;
+    color: #000 !important;
+    border: solid 2px #eee !important;
+    background-color: #fff !important;
+    border-left: solid 3px #56c452 !important;
+}
